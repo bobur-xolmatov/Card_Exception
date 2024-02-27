@@ -119,6 +119,7 @@ void SendMoneyBetweenVisaAndUnionPay()
             {
                 throw new CardTypeNotMatch($"The sender:{cardSender.Owner} has not got enough money to send");
             }
+            //ishladi
         }
     }
 }
